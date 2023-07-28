@@ -53,6 +53,7 @@ const ShoesStore = () => {
   const filterShoes = (shoes) => {
     if (genderOption) {
       return shoes.filter((shoe) => shoe.gender === genderOption);
+      
     }
     return shoes;
   };
